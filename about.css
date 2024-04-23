@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a li:hover{
+    color: rgb(213, 72, 213);
+}
+.main{
+    padding: 12%;
+    padding-top: 8%;
+    color: cyan;
+}

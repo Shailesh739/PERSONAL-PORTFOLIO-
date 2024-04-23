@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    color: white;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    /* position: static; */
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a li:hover{
+    color: rgb(213, 72, 213);
+}
+.left{
+    font-size: 1.5rem;
+    margin-left: 6px;
+    text-transform: capitalize;
+}
+.firstsectin{
+    display: flex;
+    justify-content: space-around;
+    margin: 23 0;
+}
+.firstsectin div{
+    width: 30%;
+    margin-top: 250px;
+    
+}
+.leftsection{
+    margin-top: 50px;
+    width: 40%;
+    /* height: 500px; */
+    display: inline-block;
+    /* margin-top: 5px; */
+    margin-right: 8%;
+    text-align: center;
+    text-transform:lowercase;
+}
+.rightsection{
+    width: 40%;
+    margin-left: 8%;
+    display: inline-block;
+}
+.rightsection img{
+    width: 100%;
+    height: 600px;
+    margin: 50px 0;
+}
+.divsection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.harsh{
+    color: purple;
+    font-size: large;
+    text-transform: none;
+}
+.secondsection img{
+    width: 100%;
+}
+footer{
+    margin-top: 50px;
+    height: 300px;
+    background-color: rgb(38, 37, 37);
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+}
+.photo{
+    /* display: inline-block; */
+    margin: 20px;
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url(projectphoto.JPG);
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    padding: 20px;
+}
+.flex div a{
+    color: white;
+    text-decoration-line: none;
+    list-style: none;
+}
+#hello{
+    text-transform: capitalize;
+}
